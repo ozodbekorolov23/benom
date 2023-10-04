@@ -1,0 +1,56 @@
+
+  .header{
+    margin: 40px 20px;
+
+    &  .nav__list{
+        display: flex;
+      }
+
+      &.header .container{
+        display: flex;
+        justify-content: space-between;
+      }
+
+
+      & li,a{
+        text-decoration: none;
+        list-style: none;
+      }
+    
+
+
+      &.nav__list{
+        display: flex;
+      }
+
+
+      &  .nav__item +.nav__item{
+        padding-left: 33px;
+    }
+    
+    
+
+    &.nav__link{
+        color: #83888F;
+        font-family:" Barlow";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; /* 125% */
+    }
+    
+
+
+    &
+    .nav__link:hover {
+        color: green;
+    }
+  }
+
+  
+
+ 
+  
+  
+
+
