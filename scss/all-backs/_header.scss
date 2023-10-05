@@ -6,7 +6,7 @@
         display: flex;
       }
 
-      &.header .container{
+      & .header .container{
         display: flex;
         justify-content: space-between;
       }
@@ -19,7 +19,7 @@
     
 
 
-      &.nav__list{
+      & .nav__list{
         display: flex;
       }
 
@@ -30,27 +30,18 @@
     
     
 
-    &.nav__link{
-        color: #83888F;
+    & .nav__link{
+        color: black;
         font-family:" Barlow";
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 15px; /* 125% */
+        line-height: 15px;
     }
     
 
 
-    &
-    .nav__link:hover {
+    & .nav__link:hover {
         color: green;
     }
   }
-
-  
-
- 
-  
-  
-
-

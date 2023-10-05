@@ -1,0 +1,50 @@
+.tol{
+    & .container{
+        width:1280px ;
+        height:962 ;
+        margin-top: 280px;
+        background-image: url(../img/Bitmaporqafon1.png);
+        background-repeat: no-repeat;
+      }
+
+      &  .til{
+        background-image: url(../img/Bitmap.jpg);
+        background-repeat: no-repeat;
+        width: 445px;
+        height: 474px;
+       margin-left: 650px;
+        transform: translateY(-400px);
+      }
+
+      &  .tol--heading{
+        padding-top: 50px;
+        color: #FEFCF7;
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+      }
+
+      &   .tol--heading{
+        padding-top: 50px;
+        color: #FEFCF7;
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+      }
+
+      & .tol--text{
+        color: #FEFCF7;
+        font-family: "Barlow";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+        width: 540px;
+      }
+      
+      
+}
