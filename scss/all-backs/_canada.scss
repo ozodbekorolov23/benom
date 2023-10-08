@@ -1,53 +1,48 @@
 .canada{
-   & .canada--our{
-    color: #83888F;
-    font-family:" Fraunces";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 32px; /* 133.333% */
-    margin-bottom: 150px;
-  }
+    margin-left: 60px;
+transform: translateY(100px);
+    .container{
+        background-image: url(../img/orqa.png);
+        background-repeat: no-repeat;
+        width: 1050px;
+        height: 292px;
+    }
 
-  .canada--list{
-    display: flex;
-    width: 1045px;
-    height: 366px;
-    top: 2149px;
-    margin-left: 165px;
-    padding: 0px, 0px, 0px, 0px;   
-  }
+    &--list{
+        display: flex;
+        justify-content: space-between;
+    }
 
-  li,a{
-    text-decoration: none;
-    list-style: none;
-  }
+    li,a{
+        list-style: none;
+    }
 
-  &  .canada--item{
-    padding-left: 80px;
-    width: 285px;
-    height: 167px;
-    top: 199px; 
-  }
+    &--our{
+        width: 268px;
+        height: 98px;
+        font-family: "Jost";
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: left;
+    }
 
-  & .canada--heading{
-    color: #333D4B;
-    font-family:" Fraunces";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 36px; /* 112.5% */
-    width: 272px;
-  }
+    &--text{
+        margin: 0;
+        padding: 0;
+        margin-top: -27px;
+        width: 459px;
+        height: 78px;
+        font-family:" Jost";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
 
-  &  .canada--text{
-    color: #333D4B;
-    font-family: "Barlow";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */
-    width: 285px;
-  }
+    &--button{
+        margin-right: 80px;
+        margin-top: 100px;
+    }
 }
-  

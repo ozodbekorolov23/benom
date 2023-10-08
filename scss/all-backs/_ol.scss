@@ -1,0 +1,32 @@
+.ol{
+    margin-top: 20px;
+
+    &--list{
+        display: flex;
+    }
+
+    &--item{
+        padding-left: 80px;
+    }
+
+    &--text{
+        width: 190px;
+        height: 18px;
+        font-family:" Jost";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &--ikons{
+        margin-top: 70px;
+        display: flex;
+        margin-left: 100px;
+    }
+
+    &--img{
+        margin-left: 40px;
+    }
+}

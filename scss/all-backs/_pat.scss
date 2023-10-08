@@ -1,44 +1,18 @@
 .pat{
     margin-top: 80px;
-
-    & .pat--list{
+    &--list{
         display: flex;
-        margin-left: 40px;
     }
 
+    &--item{
+        padding-left: 20px;
+    }
+    li,a{
+        text-decoration: none;
+        list-style: none;
+    }
 
-   li,a{
-    list-style: none;
-    text-decoration: none;
-   }
-
-   
-& .pat--tex--item{
-    padding-left: 160px;
-}
-
-& .pat--heading{
-    margin: 0;
-    padding: 0;
-    margin-top: 80px;
-    color: #333D4B;
-    font-family:" Fraunces ";
-    font-size: 50px;
-    font-weight: 900;
-}
-
-
-& .pat--text{
-    margin: 0;
-    padding: 0;
-    margin-top: 40px;
-    width: 540px;
-    color: #333D4B;
-    font-family: Barlow;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; 
-}
-
+    &--img2{
+        margin-bottom: 20px;
+    }
 }
